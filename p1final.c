@@ -1,15 +1,18 @@
 #include<stdio.h>
-int main()
+void add()
 {
-int num1,int num2;
+int num1, num2;
 float sum;
-printf("enter twonumbers\n");
+printf("enter two numbers\n");
 scanf("%d%d", &num1, &num2);
 sum= num1 +num2;
 printf("addition of %d + %d is =%f\n",num2,num1,sum);
+}
+int main()
+{
+  add();
   return 0;
 }
-
 
 
 
