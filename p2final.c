@@ -33,6 +33,5 @@ int sum;
 sum = add(num1, num2);
 
 output(num1, num2, sum);
-
 return 0;
 }
