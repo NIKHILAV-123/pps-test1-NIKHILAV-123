@@ -2,6 +2,7 @@
 #include <stdio.h>
 void input_two_numbers(int*a,int*b)
 {
+ 
   printf("Enter two numbers\n");
   scanf("%d%d",a,b);        /*think why no &*/
 }
@@ -19,6 +20,6 @@ int main()
   int x,y,z;
   input(&x,&y);
   find_sum(x,y,&z);
-  output(x,y,z);
+  output(x,y,z); 
   return 0;
 }
