@@ -1,37 +1,27 @@
-
-
-#include<stdio.h>
-
-//you can return only one thing from a function at a time
-//functions are reuseble block of code.
+#include <stdio.h>
 int input()
 {
-  //to take input from user
-  int num;
-  printf("enter a number:\n");
-  scanf("%d%d", &num);
-  return num1, num2;
+  int a;
+  printf("enter a number\n");
+  scanf("%d",&a);
+  return a;
 }
-int add(int a, int b)
+int find_sum(int a, int b)
 {
-  int sum;
-  sum = a + b;
+  int sum ;
+  sum = a+b;
   return sum;
 }
-void output(int a, int b,int sum)
+void output(int a,int b,int c)
 {
-  //to print the final result i.e sum of 2 numbers
-  printf("sum of %d and %d is %d\n", a, b, sum);
+  printf("sum of %d + %d is %d\n",a,b,c);
 }
 int main()
 {
-  int num1, num2;
-num1 = input();
-num2 = input();
-
-int sum;
-sum = add(num1, num2);
-
-output(num1, num2, sum);
-return 0;
+  int x,y,z;
+  x = input();
+  y = input();
+  z = find_sum(x,y);
+  output(x,y,z);
+  return 0;
 }
