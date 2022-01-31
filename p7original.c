@@ -7,7 +7,7 @@ int input_array_size()
   scanf("%d",&n);
   return n;
 }
-void input_array(int n, int* a[n])
+void input_array(int n, int a[n])
 {
   printf("enter the values to be added\n");
   for(int i=0;i<n;i++)

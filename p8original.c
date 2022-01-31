@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include<math.h>
-float input();
 
 float input()
 {
